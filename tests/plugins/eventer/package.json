@@ -1,0 +1,11 @@
+{
+    "name": "mock-eventer",
+    "description": "Eventer",
+    "version": "0.0.1",
+    "dependencies": {},
+    "main": "./index.js",
+    "plugin": {
+        "consumes": [],
+        "provides": ["eventer"]
+    }
+}

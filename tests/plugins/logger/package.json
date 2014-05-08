@@ -1,0 +1,11 @@
+{
+  "name": "mock-logger",
+  "description": "Logger",
+  "main": "./index.js",
+  "version": "0.0.1",
+  "dependencies": {},
+  "plugin": {
+      "consumes": ["eventer"],
+      "provides": ["logger"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "pluginator",
+  "description": "A platform for building a plugin based applications",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ivan Maksymenko",
+    "email": "ivanmaximenko@gmail.com"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+      "test": "mocha ./tests/index.js"
+  },
+  "keywords": [
+    "plugin",
+    "platform"
+  ],
+  "dependencies": {
+    "async": "~0.8.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mock-users",
+  "description": "Users",
+  "version": "0.0.1",
+  "dependencies": {},
+  "plugin": {
+      "module": "./lib/index",
+      "consumes": ["logger", "eventer"],
+      "provides": ["users"]
+  }
+}
